@@ -1,0 +1,367 @@
+EESchema Schematic File Version 2
+LIBS:bus_splice
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bus_splice-cache
+EELAYER 25 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Bus Splice"
+Date "Sun 02 Nov 2014"
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 3MM_HOLE H1
+U 1 1 53AA33AA
+P 4200 7100
+F 0 "H1" H 4150 7250 50  0000 C CNN
+F 1 "3MM_HOLE" H 4200 6950 50  0000 C CNN
+F 2 "Bus_Splice:MountingHole_3mm" H 4200 7100 60  0001 C CNN
+F 3 "" H 4200 7100 60  0000 C CNN
+	1    4200 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L OSHW_LOGO G1
+U 1 1 53AA4798
+P 5250 7250
+F 0 "G1" H 5250 7450 60  0000 C CNN
+F 1 "OSHW_LOGO" H 5250 7075 60  0000 C CNN
+F 2 "Bus_Splice:OSHW_LOGO_400mil" H 5250 7250 60  0001 C CNN
+F 3 "" H 5250 7250 60  0000 C CNN
+	1    5250 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L POWER_CONNECTOR N2
+U 1 1 53B61F22
+P 2500 3450
+F 0 "N2" H 2500 3600 50  0000 C CNN
+F 1 "5MM_TERMINAL_BLOCK" H 2550 3300 50  0000 C CNN
+F 2 "Bus_Splice:5MM_TERMINAL_BLOCK_2_POS" H 2500 3450 60  0001 C CNN
+F 3 "" H 2500 3450 60  0000 C CNN
+	1    2500 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L P_CHANNEL_MOSET_HORIZ Q1
+U 1 1 53B62FC0
+P 3900 3400
+F 0 "Q1" H 3975 3200 50  0000 C CNN
+F 1 "FQP47P06" H 3900 3575 50  0000 C CNN
+F 2 "Bus_Splice:TO-220_FET-GDS_Horizontal_LargePads" H 3900 3400 60  0001 C CNN
+F 3 "" H 3900 3400 60  0000 C CNN
+	1    3900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESETABLE_FUSE R2
+U 1 1 53B63849
+P 5000 3400
+F 0 "R2" H 5000 3500 50  0000 C CNN
+F 1 "MF-R300" H 5000 3250 50  0000 C CNN
+F 2 "Bus_Splice:MF_R300" H 5000 3400 60  0001 C CNN
+F 3 "" H 5000 3400 60  0000 C CNN
+	1    5000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L POWER_CONNECTOR N4
+U 1 1 53B64AE0
+P 2500 6650
+F 0 "N4" H 2500 6800 50  0000 C CNN
+F 1 "5MM_TERMINAL_BLOCK" H 2500 6500 50  0000 C CNN
+F 2 "Bus_Splice:5MM_TERMINAL_BLOCK_2_POS" H 2500 6650 60  0001 C CNN
+F 3 "" H 2500 6650 60  0000 C CNN
+	1    2500 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L P_CHANNEL_MOSET_HORIZ Q2
+U 1 1 53B6538A
+P 3900 6600
+F 0 "Q2" H 3975 6400 50  0000 C CNN
+F 1 "FQP47P06" H 3900 6775 50  0000 C CNN
+F 2 "Bus_Splice:TO-220_FET-GDS_Horizontal_LargePads" H 3900 6600 60  0001 C CNN
+F 3 "" H 3900 6600 60  0000 C CNN
+	1    3900 6600
+	1    0    0    -1  
+$EndComp
+Text Notes 1700 3900 0    50   ~ 0
+Daisy Chain\nMotor Power
+Text Notes 1700 6700 0    50   ~ 0
+Logic Power\nInput
+Text Label 3250 3400 0    50   ~ 0
+MPWR1
+Text Label 4300 3400 0    50   ~ 0
+MPWR2
+Text Label 3275 6600 0    50   ~ 0
+LPWR1
+Text Label 4300 6600 0    50   ~ 0
+LPWR2
+Text Label 5500 6600 0    50   ~ 0
+LPWR3
+$Comp
+L RESETABLE_FUSE R3
+U 1 1 53B7AD27
+P 5000 6600
+F 0 "R3" H 5000 6700 50  0000 C CNN
+F 1 "MF-R300" H 5000 6450 50  0000 C CNN
+F 2 "Bus_Splice:MF_R300" H 5000 6600 60  0001 C CNN
+F 3 "" H 5000 6600 60  0000 C CNN
+	1    5000 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TERMINATE_JUMPER J1
+U 1 1 53E8D609
+P 2000 4350
+F 0 "J1" H 1950 4550 50  0000 C CNN
+F 1 "TERMINATE_JUMPER" H 2000 4150 50  0000 C CNN
+F 2 "Bus_Splice:Pin_Header_Straight_1x03" H 2000 4350 60  0001 C CNN
+F 3 "" H 2000 4350 60  0000 C CNN
+	1    2000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_HORIZ R1
+U 1 1 53E8E9A7
+P 2600 4350
+F 0 "R1" H 2600 4450 50  0000 C CNN
+F 1 "120 1%" H 2600 4250 50  0000 C CNN
+F 2 "Bus_Splice:Resistor_Horizontal_400" H 2625 4350 60  0001 C CNN
+F 3 "" H 2625 4350 60  0000 C CNN
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2300 4450
+Text Label 6000 5500 0    50   ~ 0
+LGND
+$Comp
+L 3MM_HOLE H2
+U 1 1 53E91440
+P 4200 7550
+F 0 "H2" H 4150 7700 50  0000 C CNN
+F 1 "3MM_HOLE" H 4200 7400 50  0000 C CNN
+F 2 "Bus_Splice:MountingHole_3mm" H 4200 7550 60  0001 C CNN
+F 3 "" H 4200 7550 60  0000 C CNN
+	1    4200 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3MM_HOLE H3
+U 1 1 53E914C5
+P 4650 7350
+F 0 "H3" H 4600 7500 50  0000 C CNN
+F 1 "3MM_HOLE" H 4650 7200 50  0000 C CNN
+F 2 "Bus_Splice:MountingHole_3mm" H 4650 7350 60  0001 C CNN
+F 3 "" H 4650 7350 60  0000 C CNN
+	1    4650 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3MM_HOLE H4
+U 1 1 53E91517
+P 4650 7800
+F 0 "H4" H 4600 7950 50  0000 C CNN
+F 1 "3MM_HOLE" H 4650 7650 50  0000 C CNN
+F 2 "Bus_Splice:MountingHole_3mm" H 4650 7800 60  0001 C CNN
+F 3 "" H 4650 7800 60  0000 C CNN
+	1    4650 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BUS_MASTER_HEADER N1
+U 1 1 53E91E68
+P 2400 5250
+F 0 "N1" H 2250 4700 50  0000 C CNN
+F 1 "BUS_MASTER_HEADER" H 2400 5800 50  0000 C CNN
+F 2 "Bus_Splice:Pin_Header_Straight_2x05_Shrouded" H 2400 5250 60  0001 C CNN
+F 3 "" H 2400 5250 60  0000 C CNN
+	1    2400 5250
+	1    0    0    1   
+$EndComp
+Text Notes 1700 3550 0    50   ~ 0
+Motor Power\nInput
+Text Notes 1700 7100 0    50   ~ 0
+Logic Power\nDaisy Chain
+Text Label 3500 3900 0    50   ~ 0
+MGND
+Text Label 5500 3400 0    50   ~ 0
+MPWR3
+$Comp
+L BUS_MASTER_HEADER N6
+U 1 1 5456DFB2
+P 6800 5250
+F 0 "N6" H 6625 5800 50  0000 C CNN
+F 1 "BUS_MASTER_HEADER" H 6800 4700 50  0000 C CNN
+F 2 "Bus_Splice:Pin_Header_Straight_2x05_Shrouded" H 6800 5250 60  0001 C CNN
+F 3 "" H 6800 5250 60  0000 C CNN
+	1    6800 5250
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2800 4800
+NoConn ~ 2800 4900
+NoConn ~ 2800 5000
+NoConn ~ 2800 5100
+NoConn ~ 2800 5400
+NoConn ~ 2800 5500
+NoConn ~ 2800 5600
+NoConn ~ 2800 5700
+Wire Wire Line
+	3900 3900 3900 3750
+Wire Wire Line
+	4600 3400 4200 3400
+Wire Wire Line
+	2800 3400 3600 3400
+Wire Wire Line
+	5400 3400 6300 3400
+Wire Wire Line
+	3900 6950 3900 7800
+Wire Wire Line
+	2800 6600 3600 6600
+Wire Wire Line
+	2800 7000 3000 7000
+Wire Wire Line
+	3100 6700 2800 6700
+Wire Wire Line
+	2800 3800 3000 3800
+Wire Wire Line
+	2800 3500 2900 3500
+Wire Wire Line
+	2800 3900 6200 3900
+Connection ~ 2900 3900
+Wire Wire Line
+	6300 6600 5400 6600
+Wire Wire Line
+	4200 6600 4600 6600
+Wire Wire Line
+	2800 5200 6400 5200
+Wire Wire Line
+	2800 5300 6400 5300
+Wire Wire Line
+	2900 3500 2900 3900
+Wire Wire Line
+	2300 4250 2400 4250
+Wire Wire Line
+	2400 4250 2400 4150
+Wire Wire Line
+	2400 4150 3100 4150
+Wire Wire Line
+	3000 4350 2800 4350
+Wire Wire Line
+	2400 4350 2300 4350
+Connection ~ 3900 7100
+Wire Wire Line
+	3900 7550 4000 7550
+Wire Wire Line
+	3900 7800 4450 7800
+Connection ~ 3900 7550
+Wire Wire Line
+	4450 7350 3900 7350
+Connection ~ 3900 7350
+Wire Wire Line
+	3100 5500 3100 7100
+Wire Wire Line
+	3000 5200 3000 4350
+Wire Wire Line
+	3100 4150 3100 5300
+Connection ~ 3100 5300
+Connection ~ 3000 5200
+Wire Wire Line
+	3000 7000 3000 6600
+Connection ~ 3000 6600
+Wire Wire Line
+	3000 3800 3000 3400
+Connection ~ 3000 3400
+Wire Wire Line
+	6400 5600 6300 5600
+Wire Wire Line
+	6300 5600 6300 6600
+Wire Wire Line
+	6400 5700 6300 5700
+Connection ~ 6300 5700
+Wire Wire Line
+	2800 7100 4000 7100
+Wire Wire Line
+	3100 5500 6400 5500
+Connection ~ 3100 6700
+Wire Wire Line
+	6400 5400 6300 5400
+Wire Wire Line
+	6300 5400 6300 5500
+Connection ~ 6300 5500
+Wire Wire Line
+	6300 4900 6400 4900
+Wire Wire Line
+	6300 3400 6300 4900
+Wire Wire Line
+	6300 4800 6400 4800
+Connection ~ 6300 4800
+Wire Wire Line
+	6400 5000 6200 5000
+Wire Wire Line
+	6200 3900 6200 5100
+Connection ~ 3900 3900
+Wire Wire Line
+	6200 5100 6400 5100
+Connection ~ 6200 5000
+$Comp
+L POWER_CONNECTOR_ALT N5
+U 1 1 5456F546
+P 2500 7050
+F 0 "N5" H 2500 7200 50  0000 C CNN
+F 1 "5MM_TERMINAL_BLOCK" H 2500 6900 50  0000 C CNN
+F 2 "Bus_Splice:5MM_TERMINAL_BLOCK_2_POS" H 2500 7050 60  0001 C CNN
+F 3 "" H 2500 7050 60  0000 C CNN
+	1    2500 7050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L POWER_CONNECTOR_ALT N3
+U 1 1 5456FCF0
+P 2500 3850
+F 0 "N3" H 2500 4000 50  0000 C CNN
+F 1 "5MM_TERMINAL_BLOCK" H 2500 3700 50  0000 C CNN
+F 2 "Bus_Splice:5MM_TERMINAL_BLOCK_2_POS" H 2500 3850 60  0001 C CNN
+F 3 "" H 2500 3850 60  0000 C CNN
+	1    2500 3850
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3100 7100
+$EndSCHEMATC
