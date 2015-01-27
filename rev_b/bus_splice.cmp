@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 02 Nov 2014 06:34:02 PM PST
+
+BeginCmp
+TimeStamp = /53AA4798;
+Reference = G1;
+ValeurCmp = OSHW_LOGO;
+IdModule  = Bus_Splice:OSHW_LOGO_400mil;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA33AA;
+Reference = H1;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Splice:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E91440;
+Reference = H2;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Splice:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E914C5;
+Reference = H3;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Splice:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E91517;
+Reference = H4;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Splice:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E8D609;
+Reference = J1;
+ValeurCmp = TERMINATE_JUMPER;
+IdModule  = Bus_Splice:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E91E68;
+Reference = N1;
+ValeurCmp = BUS_MASTER_HEADER;
+IdModule  = Bus_Splice:Pin_Header_Straight_2x05_Shrouded;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B61F22;
+Reference = N2;
+ValeurCmp = 5MM_TERMINAL_BLOCK;
+IdModule  = Bus_Splice:5MM_TERMINAL_BLOCK_2_POS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5456FCF0;
+Reference = N3;
+ValeurCmp = 5MM_TERMINAL_BLOCK;
+IdModule  = Bus_Splice:5MM_TERMINAL_BLOCK_2_POS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B64AE0;
+Reference = N4;
+ValeurCmp = 5MM_TERMINAL_BLOCK;
+IdModule  = Bus_Splice:5MM_TERMINAL_BLOCK_2_POS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5456F546;
+Reference = N5;
+ValeurCmp = 5MM_TERMINAL_BLOCK;
+IdModule  = Bus_Splice:5MM_TERMINAL_BLOCK_2_POS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5456DFB2;
+Reference = N6;
+ValeurCmp = BUS_MASTER_HEADER;
+IdModule  = Bus_Splice:Pin_Header_Straight_2x05_Shrouded;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B62FC0;
+Reference = Q1;
+ValeurCmp = FQP47P06;
+IdModule  = Bus_Splice:TO-220_FET-GDS_Horizontal_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B6538A;
+Reference = Q2;
+ValeurCmp = FQP47P06;
+IdModule  = Bus_Splice:TO-220_FET-GDS_Horizontal_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E8E9A7;
+Reference = R1;
+ValeurCmp = 120 1%;
+IdModule  = Bus_Splice:Resistor_Horizontal_400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B63849;
+Reference = R2;
+ValeurCmp = MF-R300;
+IdModule  = Bus_Splice:MF_R300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B7AD27;
+Reference = R3;
+ValeurCmp = MF-R300;
+IdModule  = Bus_Splice:MF_R300;
+EndCmp
+
+EndListe
