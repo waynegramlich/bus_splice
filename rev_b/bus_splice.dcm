@@ -16,6 +16,10 @@ $CMP POWER_JUMPER
 D Power Jumper
 $ENDCMP
 #
+$CMP PWR_JUMPER
+D Termination Jumper
+$ENDCMP
+#
 $CMP P_CHANNEL_MOSFET
 F transistors/mos/*.*
 $ENDCMP

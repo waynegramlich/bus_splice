@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 02 Nov 2014 06:34:02 PM PST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Mon 26 Jan 2015 08:42:38 PM PST
 
 BeginCmp
 TimeStamp = /53AA4798;
@@ -43,9 +43,37 @@ IdModule  = Bus_Splice:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /53E91E68;
+TimeStamp = /54C71ACC;
+Reference = J2;
+ValeurCmp = PPWR_JUMPER;
+IdModule  = Bus_Splice:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C715FF;
+Reference = J3;
+ValeurCmp = BGND_JUMPER;
+IdModule  = Bus_Splice:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C730C7;
+Reference = J4;
+ValeurCmp = LGND_JUMPER;
+IdModule  = Bus_Splice:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C739E2;
+Reference = J5;
+ValeurCmp = LPWR_JUMPER;
+IdModule  = Bus_Splice:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C7501A;
 Reference = N1;
-ValeurCmp = BUS_MASTER_HEADER;
+ValeurCmp = BUS_SLAVE_HEADER;
 IdModule  = Bus_Splice:Pin_Header_Straight_2x05_Shrouded;
 EndCmp
 
